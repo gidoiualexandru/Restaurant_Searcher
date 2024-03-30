@@ -1,0 +1,125 @@
+/* Logo and Title */
+.logo {
+  display: inline-block;
+  margin-right: 10px;
+  max-width: 50px; /* Adjust logo size */
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 20px; /* Add padding to create navbar effect */
+  background-color: #2c3e50; /* Dark blue-gray background color */
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff; /* White link color */
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #cbd5e0; /* Light gray on hover */
+}
+
+/* Buttons */
+.button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a5568; /* Dark blue-gray button color */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2c3e50; /* Slightly darker shade on hover */
+}
+
+/* Search Container */
+.search-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  padding: 15px;
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid #cbd5e0; /* Light gray border */
+  border-radius: 5px;
+  font-size: 1.2rem; /* Increased font size */
+  outline: none;
+}
+
+.search-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a5568; /* Dark blue-gray button color */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #2c3e50; /* Slightly darker shade on hover */
+}
+
+/* Restaurant List */
+.restaurant-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.restaurant-item {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff; /* White background for restaurant items */
+}
+
+.restaurant-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2c3e50; /* Dark blue-gray restaurant name color */
+}
+
+.restaurant-address {
+  font-size: 1rem;
+  color: #4a5568; /* Gray restaurant address color */
+}
+
+/* Center Images */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
